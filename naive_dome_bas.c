@@ -29,14 +29,12 @@ int naive_pmatch(int *arr, int size, int m)
 
         /* It is ok */
         if (!((_r % 2) | 0)) {
-                printf("F Part\n");
                 for (; F_siz >= 0; F_siz--) {
                         if (!(m ^ *(arr + F_siz) | 0))
                                 return 1;
                 }
                 return 0;
         } else {
-                printf("E Part\n");
                 for (; E_siz < size; E_siz++) {
                         if (!(m ^ *(arr + E_siz)))
                                 return 1;
