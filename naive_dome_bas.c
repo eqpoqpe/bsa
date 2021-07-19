@@ -10,6 +10,9 @@ static char rd_s[11];
 static unsigned int F_siz = INIT_0;
 static unsigned int E_siz = INIT_0;
 
+static const OK = 0;
+static const NO_OK = 1;
+
 int naive_pmatch(int *arr, int size, int m)
 {
         i = time(NULL);
