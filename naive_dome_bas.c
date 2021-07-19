@@ -28,7 +28,8 @@ int naive_pmatch(int *arr, int size, int m)
         int _r = *(rd_s + 9) - '0';
 
         /* It is ok */
-        if (!((_r % 2) | 0)) {
+        //if (!((_r % 2) | 0)) {
+        if ((_r % 2) == OK) {
                 for (; F_siz >= 0; F_siz--) {
                         if (!(m ^ *(arr + F_siz) | 0))
                                 return 1;
