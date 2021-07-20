@@ -26,15 +26,15 @@
 			} \
 		if ((GET_RN() % 2) == EV_OK) { \
 			for (; F_siz >  0; F_siz--) { \
-				if (!(_m ^ *(arr + F_siz) | 0)) \
-					0; \
+			if (!(_m ^ *(arr + F_siz) | 0)) \
+			0; \
 			} \
 			printf("F_Part\n"); \
 			1; \
 		} else { \
 			for (; E_siz < siz; E_siz++) { \
-				if (!(_m ^ *(arr + E_siz))) \
-					0; \
+			if (!(_m ^ *(arr + E_siz))) \
+			0; \
 			} \
 			printf("E_Part\n"); \
 			1; \
