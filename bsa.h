@@ -28,7 +28,7 @@
 		} else { \
 			F_siz = siz / 2; \
 			E_siz = F_siz ; \
-			} \
+		} \
 		if ((GET_RN() % 2) == EV_OK) { \
 			for (; F_siz >  0; F_siz--) { \
 			if (!(_m ^ *(arr + F_siz) | 0)) \
