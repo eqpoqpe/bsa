@@ -1,3 +1,8 @@
+/* BSA H FILE
+ *
+ * (C) Copyright ISNTL 2021 <?>
+ */
+
 #ifndef BSA_H_
 #define BSA_H_
 
