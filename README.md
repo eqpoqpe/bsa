@@ -5,4 +5,4 @@
 
 [0-9] % 2 -> OK && NO\_OK
 
-[test](https://github.com/iatomato/bsa/runs/3115175328?check_suite_focus=true)
+# [test](https://github.com/iatomato/bsa/runs/3115175328?check_suite_focus=true)
